@@ -10,6 +10,11 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 
+&led_strip {
+  chain-length = <6>;
+  // chain-length = <27>;
+  // 21 backlight + 6 glowlight
+};
 
 / {
     keymap {
